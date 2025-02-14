@@ -1,0 +1,17 @@
+{
+    "Sprint 1": {
+        "Health": [
+            {"goal": "Reach 242.5 lbs", "completed": false},
+            {"goal": "Maintain 1% weight loss per week", "completed": true}
+        ],
+        "Deen": [
+            {"goal": "Pray 5 daily Salah in congregation", "completed": false},
+            {"goal": "Complete year 1 of As-Suffa", "completed": false}
+        ]
+    },
+    "Sprint 2": {
+        "Health": [
+            {"goal": "Build strength and endurance", "completed": false}
+        ]
+    }
+}
