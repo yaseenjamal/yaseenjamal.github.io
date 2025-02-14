@@ -62,29 +62,8 @@
         </div>
 
         <h2>Ultimate Goals</h2>
-        <div class="goal-category">
-            <h3>Health & Fitness</h3>
-            <p>Achieve peak physical condition: strong, healthy, and aesthetically refined.</p>
-        </div>
-        <div class="goal-category">
-            <h3>Deen</h3>
-            <p>Master the 8 Juz previously memorized, establish consistent Salah, and complete the Aalimiyyah course.</p>
-            <p>Make up for 4,787 missed Salah, fast 135 missed obligatory fasts, and perform Hajj and Umrah during Ramadan.</p>
-            <p>Sponsor an orphan and finance a mosque construction.</p>
-        </div>
-        <div class="goal-category">
-            <h3>Financial Goals</h3>
-            <p>To be determined.</p>
-        </div>
-        <div class="goal-category">
-            <h3>Professional Development</h3>
-            <p>Long-term career objectives to be determined.</p>
-        </div>
-        <div class="goal-category">
-            <h3>Possessions & Home</h3>
-            <p>Curate a minimalistic, high-quality lifestyle with essential possessions and maintain a clean, optimized living space.</p>
-        </div>
-
+        <div id="ultimate-goals">Loading goals...</div>
+        
         <h2>Sprint Goals</h2>
         <div id="sprint-goals">Loading goals...</div>
     </div>
@@ -99,14 +78,47 @@
             } catch (error) {
                 console.error("Error loading goals:", error);
                 document.getElementById("sprint-goals").innerHTML = "<p>Failed to load goals.</p>";
+                document.getElementById("ultimate-goals").innerHTML = "<p>Failed to load ultimate goals.</p>";
             }
         }
 
         function populateGoals(data) {
-            const container = document.getElementById("sprint-goals");
-            container.innerHTML = "";
+            const ultimateContainer = document.getElementById("ultimate-goals");
+            const sprintContainer = document.getElementById("sprint-goals");
+            ultimateContainer.innerHTML = "";
+            sprintContainer.innerHTML = "";
+
+            if (data["Ultimate Goals"]) {
+                for (const category in data["Ultimate Goals"]) {
+                    const categoryDiv = document.createElement("div");
+                    categoryDiv.classList.add("goal-category");
+
+                    const categoryTitle = document.createElement("h3");
+                    categoryTitle.textContent = category;
+                    categoryDiv.appendChild(categoryTitle);
+
+                    data["Ultimate Goals"][category].forEach(goal => {
+                        const goalDiv = document.createElement("div");
+                        goalDiv.classList.add("goal-checkbox");
+
+                        const checkbox = document.createElement("input");
+                        checkbox.type = "checkbox";
+                        checkbox.checked = goal.completed;
+
+                        const label = document.createElement("label");
+                        label.textContent = goal.goal;
+
+                        goalDiv.appendChild(checkbox);
+                        goalDiv.appendChild(label);
+                        categoryDiv.appendChild(goalDiv);
+                    });
+
+                    ultimateContainer.appendChild(categoryDiv);
+                }
+            }
 
             for (const sprint in data) {
+                if (sprint === "Ultimate Goals") continue;
                 const sprintDiv = document.createElement("div");
                 sprintDiv.classList.add("goal-category");
 
@@ -141,7 +153,7 @@
                     sprintDiv.appendChild(categoryDiv);
                 }
 
-                container.appendChild(sprintDiv);
+                sprintContainer.appendChild(sprintDiv);
             }
         }
         
