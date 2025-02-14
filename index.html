@@ -52,6 +52,39 @@
 <body>
     <div class="title-bar">The Journey to True Yaseen</div>
     <div class="container">
+        <h2>Sprint Structure</h2>
+        <div class="goal-category">
+            <p><strong>Sprint 1:</strong> Feb 18, 2025 – Feb 17, 2026 (1 year)</p>
+            <p><strong>Sprint 2:</strong> Feb 18, 2026 – Feb 17, 2027 (1 year)</p>
+            <p><strong>Sprint 3:</strong> Feb 18, 2027 – Feb 17, 2028 (1 year)</p>
+            <p><strong>Sprint 4:</strong> Feb 18, 2028 – Feb 17, 2029 (1 year)</p>
+            <p><strong>Sprint 5:</strong> Feb 18, 2029 – Dec 31, 2029 (Final refining phase)</p>
+        </div>
+
+        <h2>Ultimate Goals</h2>
+        <div class="goal-category">
+            <h3>Health & Fitness</h3>
+            <p>Achieve peak physical condition: strong, healthy, and aesthetically refined.</p>
+        </div>
+        <div class="goal-category">
+            <h3>Deen</h3>
+            <p>Master the 8 Juz previously memorized, establish consistent Salah, and complete the Aalimiyyah course.</p>
+            <p>Make up for 4,787 missed Salah, fast 135 missed obligatory fasts, and perform Hajj and Umrah during Ramadan.</p>
+            <p>Sponsor an orphan and finance a mosque construction.</p>
+        </div>
+        <div class="goal-category">
+            <h3>Financial Goals</h3>
+            <p>To be determined.</p>
+        </div>
+        <div class="goal-category">
+            <h3>Professional Development</h3>
+            <p>Long-term career objectives to be determined.</p>
+        </div>
+        <div class="goal-category">
+            <h3>Possessions & Home</h3>
+            <p>Curate a minimalistic, high-quality lifestyle with essential possessions and maintain a clean, optimized living space.</p>
+        </div>
+
         <h2>Sprint Goals</h2>
         <div id="sprint-goals">Loading goals...</div>
     </div>
@@ -59,7 +92,7 @@
     <script>
         async function loadGoals() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/yaseenjamal/yaseenjamal.github.io/refs/heads/main/goals.json');
+                const response = await fetch('https://raw.githubusercontent.com/yaseenjamal/yaseenjamal.github.io/main/goals.json');
                 if (!response.ok) throw new Error("Failed to load goals.");
                 const data = await response.json();
                 populateGoals(data);
@@ -111,7 +144,7 @@
                 container.appendChild(sprintDiv);
             }
         }
-
+        
         document.addEventListener("DOMContentLoaded", loadGoals);
     </script>
 </body>
