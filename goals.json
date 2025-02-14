@@ -1,122 +1,49 @@
 {
     "Ultimate Goals": {
         "Health & Fitness": [
-            {
-                "goal": "Become a fine physical specimen of the human male — fit, healthy, and aesthetically refined.\n\nThis means achieving a body that is above-average (athletic) in fitness benchmarks, similar to what is expected in physically demanding professions like firefighters and military personnel. This includes:\n- A weight of 220 lbs with a lean and strong physique.\n- Maintaining <= 15% body fat, ensuring visible muscle definition while retaining strength.\n- Surpassing general fitness benchmarks.",
-                "completed": false
-            }
+            {"goal": "Become a fine physical specimen of the human male — fit, healthy, and aesthetically refined.<br><br>This means achieving a body that is <b>above-average (athletic)</b> in fitness benchmarks, similar to what is expected in physically demanding professions like firefighters and military personnel.<br>- A weight of <b>220 lbs</b> with a lean and strong physique.<br>- Maintaining <b>12-15% body fat</b>, ensuring visible muscle definition while retaining strength.<br>- Surpassing general fitness benchmarks.", "completed": false}
         ],
         "Deen": [
-            {
-                "goal": "Memorize 15 Juz by reciting 4 lines of sabak daily.",
-                "completed": false
-            },
-            {
-                "goal": "Establish 5 daily Salah in the mosque whenever possible.",
-                "completed": false
-            },
-            {
-                "goal": "Complete the 6-year Aalimiyyah course at As-Suffa.",
-                "completed": false
-            },
-            {
-                "goal": "Make up for 4,787 missed Salah across Fajr, Zuhr, Asr, Maghrib, and Isha.",
-                "completed": false
-            },
-            {
-                "goal": "Make up for 135 missed fasts.",
-                "completed": false
-            },
-            {
-                "goal": "Perform Hajj.",
-                "completed": false
-            },
-            {
-                "goal": "Perform Umrah during Ramadan for two years.",
-                "completed": false
-            },
-            {
-                "goal": "Pay for a poor person's Hajj.",
-                "completed": false
-            },
-            {
-                "goal": "Sponsor an orphan as an ongoing act of charity.",
-                "completed": false
-            }
+            {"goal": "Memorize 15 Juz by reciting <b>4 lines of new memorization (sabak) daily</b>.", "completed": false},
+            {"goal": "Establish <b>5 daily Salah</b> in the mosque whenever possible.", "completed": false},
+            {"goal": "Complete the <b>6-year Aalimiyyah course</b> at As-Suffa.", "completed": false},
+            {"goal": "Make up for <b>4,787 missed Salah</b> across Fajr, Zuhr, Asr, Maghrib, and Isha.", "completed": false},
+            {"goal": "Make up for <b>135 missed Ramadan fasts</b>.", "completed": false},
+            {"goal": "Perform <b>Hajj</b>.", "completed": false},
+            {"goal": "Perform <b>Umrah during Ramadan</b> for two years.", "completed": false},
+            {"goal": "Sponsor an <b>orphan</b> as an ongoing act of charity.", "completed": false}
         ],
         "Financial Goals": [
-            {
-                "goal": "Accumulate a net worth of >= £100,000.\n\nCalculation:\n3000 * 58 (months) + 16000 (already in bank) - 20000 (Hajj) - 20000 (two years of Umrah) - 10000 (paying for someone else's Hajj).",
-                "completed": false
-            }
+            {"goal": "Accumulate a net worth of <b>£100,000</b>.<br><br><b>Calculation:</b><br>(3000 * 58 months) + 16000 (already in bank) - 20000 (Hajj) - 20000 (two years of Umrah) - 10000 (paying for someone else's Hajj).<br><b>Final Target:</b> £100,000", "completed": false}
         ],
         "Professional Development": [
-            {
-                "goal": "Get promoted to Lead Engineer.",
-                "completed": false
-            }
+            {"goal": "Become a <b>Lead Engineer</b>.", "completed": false}
         ],
         "Possessions & Home": [
-            {
-                "goal": "Achieve a minimalistic, high-quality lifestyle with essential possessions, ensuring every item adds value.",
-                "completed": false
-            },
-            {
-                "goal": "Ensure a well-maintained and optimized living space, clean, modern, and efficient.",
-                "completed": false
-            }
+            {"goal": "Achieve a <b>minimalistic, high-quality lifestyle</b> with essential possessions, ensuring every item adds value.", "completed": false},
+            {"goal": "Ensure a <b>well-maintained and optimized living space</b>, clean, modern, and efficient.", "completed": false}
         ]
     },
     "Sprint 1": {
         "Health & Fitness": [
-            {
-                "goal": "Reduce weight from 400 lbs to 242.5 lbs by losing 1% of body weight per week, tracked using weight.py.\n\nPhases:\n- 400 → 320 lbs: Strict calorie deficit and walking-focused activity.\n- 320 lbs: Start gym training with a personal trainer to ensure proper form and injury prevention.\n- 320 → 280 lbs: Strength and conditioning training while continuing fat loss.\n- 280 → 242.5 lbs: Maintain structured diet and training for sustainable results.",
-                "completed": false
-            },
-            {
-                "goal": "Complete skin treatments at 280 lbs, including:\n- 2 resurfacing peels on back.\n- 2 LED sessions on back.\n- 2 microneedling sessions on face.\n- 1 resurfacing session on face.\n\nThis ensures optimal results and confidence in appearance as the body transformation progresses.",
-                "completed": false
-            }
+            {"goal": "Reduce weight from <b>400 lbs to 242.5 lbs</b> by losing <b>1% of body weight per week</b>, tracked using weight.py.<br><br><b>Phases:</b><br>- <b>400 → 320 lbs</b>: Strict calorie deficit and walking-focused activity.<br>- <b>320 lbs</b>: Start gym training with a personal trainer to ensure proper form and injury prevention.<br>- <b>320 → 280 lbs</b>: Strength and conditioning training while continuing fat loss.<br>- <b>280 → 242.5 lbs</b>: Maintain structured diet and training for sustainable results.", "completed": false},
+            {"goal": "Complete <b>skin treatments</b> at <b>280 lbs</b>, including:<br>- 2 resurfacing peels on back.<br>- 2 LED sessions on back.<br>- 2 microneedling sessions on face.<br>- 1 resurfacing session on face.<br><br>This ensures optimal results and confidence in appearance as the body transformation progresses.", "completed": false}
         ],
         "Deen": [
-            {
-                "goal": "Pray all 5 daily prayers in congregation, maintaining consistency and habit formation. 120 days in a row to mark this as complete.",
-                "completed": false
-            },
-            {
-                "goal": "Make up 3 missed prayers per salah per day, amounting to 1095 out of 4787 total missed prayers.",
-                "completed": false
-            },
-            {
-                "goal": "Memorize 30th, 1st, 2nd, & 3rd paras through structured daily practice:\n- 4 lines of new memorization (sabak) daily.\n- 1/2 para sabak para (recent revision) daily.\n- 1/2 para daur (long-term revision) daily.\n\nCalculate how many paras will be memorized in 365 days at this rate.",
-                "completed": false
-            },
-            {
-                "goal": "Make up for 135 missed fasts.",
-                "completed": false
-            },
-            {
-                "goal": "Complete Year 1 of Aalimiyyah course and progress to Year 2.",
-                "completed": false
-            }
+            {"goal": "Pray <b>all 5 daily prayers</b> in congregation, maintaining consistency and habit formation. <b>120 days in a row</b> to mark this as complete.", "completed": false},
+            {"goal": "Make up <b>3 missed prayers per salah per day</b>, amounting to <b>1095 out of 4787 total missed prayers</b> (<b>22.89%</b> completion).", "completed": false},
+            {"goal": "Memorize Quran through structured daily practice:<br>- 4 lines of new memorization (sabak) daily.<br>- 1/2 para sabak para (recent revision) daily.<br>- 1/2 para daur (long-term revision) daily.<br><br><b>Final Calculation:</b> 4 lines per day * 365 days = approximately <b>3 paras memorized</b> in a year.", "completed": false},
+            {"goal": "Make up for <b>135 missed Ramadan fasts</b>.", "completed": false},
+            {"goal": "Complete <b>Year 1 of Aalimiyyah course</b> and progress to Year 2.", "completed": false}
         ],
         "Financial Goals": [
-            {
-                "goal": "Accumulate £32,000 in total savings and investments.\n\nCalculation:\n3000 * 12 (months) + 16000 (already in bank) - 20000 (Hajj).\n\n",
-                "completed": false
-            }
+            {"goal": "Accumulate <b>£32,000 in total savings and investments</b>.<br><br><b>Calculation:</b><br>(3000 * 12 months) + 16000 - 20000 for Hajj.<br><b>Investment Strategy:</b> Determine how much should go into ISA investments and how much should be kept in savings.", "completed": false}
         ],
         "Professional Development": [
-            {
-                "goal": "Get promoted to Senior Engineer, demonstrating leadership, technical expertise, and impactful contributions.",
-                "completed": false
-            }
+            {"goal": "Get promoted to <b>Senior Engineer</b>, demonstrating leadership, technical expertise, and impactful contributions.", "completed": false}
         ],
         "Possessions & Home": [
-            {
-                "goal": "No focus on possessions and home in Sprint 1.",
-                "completed": false
-            }
+            {"goal": "No focus on possessions and home in Sprint 1.", "completed": false}
         ]
     }
 }
