@@ -1,4 +1,30 @@
 {
+    "Ultimate Goals": {
+        "Health & Fitness": [
+            {"goal": "Achieve peak physical condition: strong, healthy, and aesthetically refined.", "completed": false}
+        ],
+        "Deen": [
+            {"goal": "Master the 8 Juz previously memorized", "completed": false},
+            {"goal": "Establish consistent Salah in congregation", "completed": false},
+            {"goal": "Complete the 6-year Aalimiyyah course", "completed": false},
+            {"goal": "Make up for 4,787 missed Salah", "completed": false},
+            {"goal": "Fast 135 missed obligatory fasts", "completed": false},
+            {"goal": "Perform Hajj", "completed": false},
+            {"goal": "Perform Umrah during Ramadan", "completed": false},
+            {"goal": "Sponsor an orphan", "completed": false},
+            {"goal": "Finance a mosque construction", "completed": false}
+        ],
+        "Financial Goals": [
+            {"goal": "To be determined", "completed": false}
+        ],
+        "Professional Development": [
+            {"goal": "Long-term career objectives to be determined", "completed": false}
+        ],
+        "Possessions & Home": [
+            {"goal": "Curate a minimalistic, high-quality lifestyle with essential possessions", "completed": false},
+            {"goal": "Maintain a clean, optimized living space", "completed": false}
+        ]
+    },
     "Sprint 1": {
         "Health": [
             {"goal": "Reach 242.5 lbs", "completed": false},
