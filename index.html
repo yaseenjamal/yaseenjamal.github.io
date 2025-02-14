@@ -59,7 +59,7 @@
     <script>
         async function loadGoals() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/yaseenjamal/yaseenjamal/main/goals.json');
+                const response = await fetch('https://raw.githubusercontent.com/yaseenjamal/yaseenjamal.github.io/refs/heads/main/goals.json');
                 if (!response.ok) throw new Error("Failed to load goals.");
                 const data = await response.json();
                 populateGoals(data);
